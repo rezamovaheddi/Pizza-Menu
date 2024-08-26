@@ -45,7 +45,7 @@ const pizzaData = [
 
 function Pizza(){
     return (
-        <div>
+        <div className="">
             <img
              src="./public/Pizzas/funghi.jpg"
              alt="dd" 

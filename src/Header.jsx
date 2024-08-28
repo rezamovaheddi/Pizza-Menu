@@ -3,7 +3,7 @@ const Header = ()=>{
 
     return (
         <header className='header'>
-            <h1>React Rezza co.</h1>
+            <h1 style={{}}>React Rezza co.</h1>
         </header>
     )
 }

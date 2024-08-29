@@ -5,7 +5,7 @@ function Pizza(props){
         <li>
           <h3>{props.pizzaO.name}</h3>
           <p>{props.pizzaO.ingredients}</p>
-          <span>{props.pizzaO.price+2346}</span>
+          <span>{props.pizzaO.price+116} $</span>
         </li>
       </div>
     )

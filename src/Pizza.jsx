@@ -1,14 +1,17 @@
-function Pizza(props){
-  if(props.pizzaO.soldOut) return null
+import { pizzaData } from "./data"
+
+
+function Pizza({pizzaO}){
     return (
-      <div className="pizza">
-        <img src={props.pizzaO.photoName} alt="XXX" />
-        <li>
-          <h3>{props.pizzaO.name}</h3>
-          <p>{props.pizzaO.ingredients}</p>
-          <span>{props.pizzaO.price+116} $</span>
-        </li>
-      </div>
+      <li className={`pizza ${pizzaO.soldOut? 'sold-out': ''}`}>
+        <img src={pizzaO.photoName} alt="XXX" />
+
+        <div>
+          <h3>{pizzaO.name}</h3>
+          <p>{pizzaO.ingredients}</p>
+          <span>{pizzaO.soldOut? 'SOLD OUT': pizzaO.price+100}</span>
+        </div>
+      </li>
     )
 }
 

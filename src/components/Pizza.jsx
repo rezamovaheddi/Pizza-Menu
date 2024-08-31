@@ -1,6 +1,5 @@
-import { pizzaData } from "./data"
-
-
+// import { pizzaData } from "./data"
+import './Menu.css'
 function Pizza({pizzaO}){
     return (
       <li className={`pizza ${pizzaO.soldOut? 'sold-out': ''}`}>

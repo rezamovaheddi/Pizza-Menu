@@ -1,5 +1,5 @@
 import Pizza from "./Pizza";
-import './App.css';
+import './Menu.css';
 import { pizzaData } from "./data";
 
 

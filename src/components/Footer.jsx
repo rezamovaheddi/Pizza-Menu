@@ -1,6 +1,5 @@
-import './App.css'
-import Order from './Order';
-
+import Order from '../Order';
+import './Footer.css'
 export default function(){
     const hour = new Date().getHours();
     const openOur = 7;

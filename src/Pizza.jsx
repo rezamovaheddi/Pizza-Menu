@@ -1,4 +1,5 @@
 function Pizza(props){
+  if(props.pizzaO.soldOut) return null
     return (
       <div className="pizza">
         <img src={props.pizzaO.photoName} alt="XXX" />

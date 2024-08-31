@@ -24,7 +24,7 @@ export const pizzaData = [{
         ingredients: "Tomato, mozarella, mushrooms, and onion",
         price: 12,
         photoName: "pizzas/funghi.jpg",
-        soldOut: false,
+        soldOut: true,
     },
     {
         name: "Pizza Salamino",
@@ -38,6 +38,6 @@ export const pizzaData = [{
         ingredients: "Tomato, mozarella, ham, aragula, and burrata cheese",
         price: 18,
         photoName: "pizzas/prosciutto.jpg",
-        soldOut: false,
+        soldOut: true,
     },
 ];

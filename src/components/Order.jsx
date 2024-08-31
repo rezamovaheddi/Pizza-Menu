@@ -1,3 +1,4 @@
+import './Footer'
 
 export default function Order({closeOur}) {
     return (

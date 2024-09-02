@@ -14,7 +14,8 @@ import { pizzaData } from "./data";
             {Pizzas.length < 1 
             ? <h1 style={{color: 'red'}}>We aren`t item</h1>:
             <ul className="pizzas">
-            {Pizzas.map(m=><Pizza pizzaO={m} key={m} />)}
+            {Pizzas.map(m=>
+<Pizza pizzaO={m} key={m} />)}
             </ul>
             }
           </main>
